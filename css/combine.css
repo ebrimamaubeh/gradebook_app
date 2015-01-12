@@ -1,0 +1,308 @@
+
+/*reset*/
+
+*, *:before, *:after { 
+   -webkit-box-sizing: border-box; 
+   -moz-box-sizing:    border-box; 
+   box-sizing:         border-box; 
+}
+
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, img, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section, figure {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body{
+	background: LightSteelBlue;
+
+}
+
+.container{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+h1{
+	border: groove;
+	border-radius: 10px;
+	margin-top: 0px;
+	color: white;
+	background: midnightblue;
+	text-align: center;
+	font-size: 60px;
+	text-shadow:5px 5px 5px LightSteelBlue;
+	margin-bottom: 70px;
+}
+
+/*style for the index page, ie registration.html*/
+
+.sidebar{
+	float: right;
+	width: 400px;
+	color: white;
+	background: midnightblue;
+	padding-left: 5px;
+	border-radius: 10px;
+	font-family: sans-serif;
+	margin-bottom: 75px;
+	padding-bottom: 30px;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+.login{
+	margin-bottom:30px;
+	color: white;
+	background: midnightblue;
+	padding: 10px;
+	text-align: right;
+	border-right: 10px;
+	font-size: 20px;
+	}
+.goIn{
+	font-size: 18px;
+	border-radius: 5px;
+	height: 25px;
+}
+
+.signup{
+	padding-top: 10px;
+	font-style: italic;
+
+}
+.mytext{
+	height: 30px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.logo{
+	margin-left: 150px;
+}
+img{
+
+	width: 400px;
+	height: 520px;
+	border-radius: 10px;
+	float: left;
+}
+
+/*end of styling the home page*/
+
+
+/*styling the settings page*/
+
+form li{
+	list-style: none;
+}
+
+.change{
+	height: 30px;
+	border: groove;
+	border-radius:5px;
+	font-size: 20px;
+	display: block;
+
+
+}
+
+.passwordSide{
+	background: midnightblue;
+	width: 400px;
+	color: white;
+	border-radius: 5px;
+	padding-left: 70px;
+	margin: 0px auto;
+	margin-bottom: 100px;
+}
+
+.emailSide{
+	background: midnightblue;
+	width: 400px;
+	color: white;
+	border-radius: 5px;
+	padding-left: 70px;
+	margin: 0px auto;
+	margin-bottom: 100px;
+}
+
+/*end of styling the settings page*/
+
+/*styling the trial page*/
+
+.try{
+	margin: 0px auto;
+	margin-bottom: 180px;
+	width: 600px;
+	background: white;
+	font-size: 20px;
+	border-radius: 10px;
+	background-size: 200px 600px;
+	padding: 5px;
+}
+
+.tryAgain{
+	height: 30px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+
+.errorMsg{
+	color: red;
+	border-bottom: thick;
+	padding: 5px;
+
+}
+span{
+	float: right;
+}
+
+/*end of trial page*/
+
+/*footer*/
+
+footer {
+	background-color: #1B1B1B;
+	overflow: hidden;
+	display: block;
+	color: #666666;
+	clear: both;
+	font-family: verdana;
+	font-size: 12px;
+	margin-top: 10px;
+	background: midnightblue;
+}
+
+.footer li{
+	float: left;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+	border-right: 1px solid white;
+	font-size: 12px;
+	background: mightnightblue;
+}
+.footer a:hover{
+	color: #02ACEE;
+	border-bottom: 1px dotted #02ACEE;
+}
+
+.copyright{
+	float: left;
+	background: #009900;
+}
+
+
+@media screen and (max-width:1199px){
+	.container{
+		width: 100%;
+	}
+	h1{
+		width: 100%;
+	}
+
+	/*for the index page*/
+
+		
+	.sidebar{
+		width: 40%;
+	}
+
+
+	img{
+		width: 40%;
+	}
+
+	.mytext{
+		width: 70%;
+	}
+	/*end of indexpage*/
+
+	/*for the settings page*/
+
+	
+	.passwordSide{
+		width: 40%;
+	}
+	.emailSide{
+		width: 40%;
+	}
+	.change{
+		width: 80%;
+	}
+	.try{
+		width: 60%;
+	}
+	.errorMsg{
+		width: 100%;
+	}
+	.tryAgain{
+		width: 40%;
+	}
+	/*end of settings page*/
+	}
+
+	@media screen and (max-width:1060px){
+
+		h1{
+			font-size: 30px;
+		}
+		.try{
+			width: 70%;
+		}
+		.goIn{
+			width: 30%;
+		}
+		.mytext{
+			font-size: 100%;
+		}
+	}
+
+	@media screen and (max-width: 318px){
+		.container{
+			width: 318px;
+		}
+		h1{
+			font-size: 20px;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
